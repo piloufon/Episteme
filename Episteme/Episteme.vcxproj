@@ -81,6 +81,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\DataBase\DataBase.cpp" />
+    <ClCompile Include="src\DataBase\KnowledgeDB\KnowledgeDB.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\DataBase\DataBase.h" />
+    <ClInclude Include="src\DataBase\KnowledgeDB\KnowledgeDB.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

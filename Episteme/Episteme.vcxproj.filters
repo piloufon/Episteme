@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers sources\src">
+      <UniqueIdentifier>{99e3c47d-18bb-44c3-806d-79648748e7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\src\DataBase">
+      <UniqueIdentifier>{3ff2a67b-f47f-4bd7-abba-66a18f218756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\src\DataBase\KnowledgeDB">
+      <UniqueIdentifier>{92513f63-c15e-4776-8d54-abee5c81fa1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="src\DataBase\KnowledgeDB\KnowledgeDB.cpp">
+      <Filter>Fichiers sources\src\DataBase\KnowledgeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataBase\DataBase.cpp">
+      <Filter>Fichiers sources\src\DataBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\DataBase\KnowledgeDB\KnowledgeDB.h">
+      <Filter>Fichiers sources\src\DataBase\KnowledgeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataBase\DataBase.h">
+      <Filter>Fichiers sources\src\DataBase</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
