@@ -4,7 +4,7 @@
 #include <vector>
 
 // test struct -> don't know if I will create it's own header or a "universal" header for all structured like dunno ??
-struct Envent {
+struct Event {
 
 };
 
@@ -12,7 +12,7 @@ struct Person {
 
 };
 
-using Object = std::variant<Envent, Person>;
+using Object = std::variant<Event, Person>;
 
 
 
