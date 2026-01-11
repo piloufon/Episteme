@@ -1,7 +1,8 @@
 <Solution>
   <Configurations>
     <Platform Name="x64" />
-    <Platform Name="x86" />
   </Configurations>
-  <Project Path="Episteme/Episteme.vcxproj" />
+  <Project Path="Episteme/Episteme.vcxproj" Id="2578ae2e-fe28-467c-9cf1-281c1093ab7a">
+    <BuildType Project="Release" />
+  </Project>
 </Solution>

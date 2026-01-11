@@ -1,8 +1,24 @@
 #include <cstdio>
 #include <stdint.h>
+#include <variant>
+#include <vector>
+
+// test struct -> don't know if I will create it's own header or a "universal" header for all structured like dunno ??
+struct Envent {
+
+};
+
+struct Person {
+
+};
+
+using Object = std::variant<Envent, Person>;
+
+
 
 int main() {
-	std::printf("Hello, Episteme, %u!\n", uint32_t(32)); // Does %u works with std::printf (just curious tbh)
+	std::vector<Object> objects;
 
+	std::printf("Hello, Episteme!\n"); // It work the same way (fuck Copilot autocompletion I want to code myself, if you want to code do it yourself elsewhere)
 	return 0;
 }
